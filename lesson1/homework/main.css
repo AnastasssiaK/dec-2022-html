@@ -1,0 +1,31 @@
+/*Стилізація через окремий css файл. кожен елемент окрім картинок повинен мати background та color. Всі картинки повінні мати ширину від 200 до 400 пікселів.*/
+
+body {
+    background: #fec356;
+    margin: 10px 40px;
+}
+h1, h2 {
+    background: #618ff8;
+    color: #ffffff;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: #ffffff;
+
+}
+p {
+    background: #ffffff;
+    color: #3a3a3a;
+    padding: 10px;
+}
+ul {
+    background: #ffff66;
+    color: black;
+}
+img {
+    max-width: 400px;
+    max-height: 300px;
+    display: block;
+    margin: auto;
+}
