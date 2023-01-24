@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+}
+div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    width: 600px;
+    height: 600px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    row-gap: 10px;
+}
+.widgets {
+    width: 100%;
+    height: 30%;
+    background: #2269bb;
+}
+.widgets_small {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 10px;
+}
+.big_w, .bigger_w, .huge_w {
+    width: 33%;
+    height: 100%;
+    background: #16457a;
+}
+.contact {
+    width: 100%;
+    height: 55%;
+    background: #2269bb;
+}
